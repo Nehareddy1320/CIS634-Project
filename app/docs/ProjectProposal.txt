@@ -1,0 +1,20 @@
+Project Proposal
+Name of the project: Food Wastage Management.
+Technologies: Java, XML
+Database: Microsoft SQL
+Description:
+	The main goal of this application is to help in reducing wastage of food.
+	This application has 2 logins. One is as admin and other is as a regular user.
+	This application has registration page, login page and main page.
+	Users can register and login with a unique username.
+	An inbuilt username and password will be given to the admin.
+	There will be only one admin for this application.
+	There will be 2 homepages. One for the users – to request food, other is for the admin – access the requests and approves it.
+	Admin will have all the authorities like approving a request, cancelling a request, and modifying a request.
+	Users can only create a request.
+Working:
+	Once the user creates a request, the admin checks the app by logging in with his/her admin details.
+	This checking can happen once or twice a day based on the number of requests.
+	As soon a user requests for the food to be collected, an email will be sent to both user and admin.
+	A confirmation email will be sent to user saying that the request is confirmed.
+	A mail will be sent to admin with the request details and the number of that request for that particular day.
