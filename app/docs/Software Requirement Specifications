@@ -109,14 +109,14 @@ Once a user’s request has been accepted by an NGO, it is disabled.
 NGOs should be able to cancel the accepted request if they wish to.
 4.1.6 Requirement 6
 •	Network issues and application slowness should be handled.
-•	Data privacy should be implemented
+•	Data privacy should be implemented using some cryptography mechanisms
 4.2 Software Interface Description
 The software user interface(s) to the outside world is(are) described.
  4.2.1 External machine interfaces
 N/A
  4.2.2 External system interfaces
-Gmail server will be used to send emails.
+Gmail server will be used to send emails.Emails regarding password recovery and one-time-code and some other notificational emails will be sent.
  4.2.3 Human interface
 N/A
  5.0 Restrictions, Limitations, and Constraints
-This application is not for IOS devices.
+This application is not for IOS devices.This application is for android only.
