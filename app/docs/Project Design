@@ -21,6 +21,7 @@ The project will accept as input, user details, including the name of the user a
 
 1.3 Software context
 With the software in place, businesses are able to:
+save food from going into the garbage.
 	Save costs on labor through more efficient handling, preparation, and storage of food that will be used.
 	As a result of the analysis of the data on food waste collected; save costs when purchasing only as much food as needed, and avoiding additional costs of disposal.
 	Reduced methane emissions from landfills and a lower carbon footprint.
@@ -35,7 +36,7 @@ Businesses that have access to cloud storage, may rip its benefits, such as:
 	Lifetime access.
 With cloud storage in place, the software will have to be integrated with external data in the cloud services. This may increase the time taken in the design, implementation and testing phases.
 2.0 Data design
-With user input, comes the need to keep user information organized, and self-contained.
+User does data input , which brings upa need to keep that information safe and secure.Data privacy is a key factor.
 2.1 Data structures
 Data flow from the user to the application, needs be in a unified format. For this reason the data will mostly be structured as xml, as this format can be converted to and from many representations, both in the user interface and stored in the database.
 2.2 Database description
