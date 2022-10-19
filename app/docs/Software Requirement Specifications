@@ -31,6 +31,7 @@ This section gives a detailed information of usage scenario for the software. It
 The user can be anyone. 
  2.2 Use-cases
 •	Firstly, user’s sign-up / login to the application using the credentials.
+If a user has an existing account, he/she goes to sign in page.
 •	Validations performed while sign up/login phase:
 o	Username has a character length limit. Username should contain a maximum of 50 letters. Username field will only accept letters and not numbers, special characters. 
 o	E-mail address will be validated following rules.
@@ -106,7 +107,7 @@ The acceptance of request is first come first serve.
 When an NGO accepts a user’s request of food donation, it shows a page stating that the acceptance of donation was successful and also it displays the contact details of the user 
 Once a user’s request has been accepted by an NGO, it is disabled.
 4.1.5 Requirement 5
-NGOs should be able to cancel the accepted request if they wish to.
+NGOs should be able to cancel the accepted request if they wish to cancel anytime after accepting a request.
 4.1.6 Requirement 6
 •	Network issues and application slowness should be handled.
 •	Data privacy should be implemented using some cryptography mechanisms
