@@ -31,9 +31,10 @@ This section gives a detailed information of usage scenario for the software. It
 The user can be anyone. 
  2.2 Use-cases
 •	Firstly, user’s sign-up / login to the application using the credentials.
-If a user has an existing account, he/she goes to sign in page.
+If a user has an existing account,then user goes to sign in page.
 •	Validations performed while sign up/login phase:
-o	Username has a character length limit. Username should contain a maximum of 50 letters. Username field will only accept letters and not numbers, special characters. 
+o	Username has a character length limit. Username should contain a maximum of 50 letters. Username field will only accept letters and not numbers.
+o Username must contain special characters.
 o	E-mail address will be validated following rules.
 o	Username should be unique and should not match with any other.
 o	Password cannot be less than 5 characters and more than 12 characters.
