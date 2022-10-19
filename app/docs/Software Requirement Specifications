@@ -1,0 +1,122 @@
+SOFTWARE REQUIREMENTS SPECIFICATION
+Project Title: Food Wastage Management
+
+
+ 
+
+
+Team members:
+1.	Neha Reddy Baddam : 2828070
+2.	Nikitha Thangellapally : 2844791
+3.	Manasa Moduga : 2845854
+4.	Seshasai Vamsikrishna Murthy Nidadavolu :2845851
+
+
+
+
+
+1.0 Introduction
+This section provides an overview of the entire requirement document. This document describes all data, functional and behavioral requirements for software.
+ 1.1 Goals and objectives
+There is a lot of food wastage which happens on a regular basis via parties, events or gatherings. The main goal of this project is to help save food from getting wasted.
+ 1.2 Statement of scope
+This project delivers a working application based on android which provides a user-friendly UI satisfying all the requirements and goals.
+ 1.3 Software context
+This project uses android studio application for development. For database we use MSSQL.  For testing, we plan to use MSSQL, and android studio installed. The background coding is done using Java and JavaScript.
+ 1.4 Major constraints
+This application is only compatible with android devices. It doesn’t work on IOS systems.
+ 2.0 Usage scenario
+This section gives a detailed information of usage scenario for the software. It organized information collected during requirements elicitation into use-cases.
+ 2.1 User profiles
+The user can be anyone. 
+ 2.2 Use-cases
+•	Firstly, user’s sign-up / login to the application using the credentials.
+•	Validations performed while sign up/login phase:
+o	Username has a character length limit. Username should contain a maximum of 50 letters. Username field will only accept letters and not numbers, special characters. 
+o	E-mail address will be validated following rules.
+o	Username should be unique and should not match with any other.
+o	Password cannot be less than 5 characters and more than 12 characters.
+o	Username, e-mail, password fields are required to sign up.
+o	For login Username and password are required.
+o	All the fields are mandatory.
+Login-page:
+                The users who already have an account can directly login using the login page.
+•	Validation made during login:
+o	Username is verified from the database. Account holders’ information is already recorded in the database. Validation can be done from there.
+o	When password is entered, it is matched with the data already present and is then validated.
+o	Username and password fields are mandatory and can’t be blank.
+Forgot password:
+•	If a user forgets his/her password, the password can be retrieved from the attached e-mail.
+•	A password reset link will be sent to the email upon request.
+
+User’s functions:
+o	When a student logs into the application, a screen pops up with two buttons called donate and view
+o	A user who wants to donate food can click on donate and this will take him/her to raise a donate request.
+o	This page is called food details page.
+o	This page has 2 fields:
+o	Name of the food item, quantity
+o	Another filed called add another item, when this field is clicked it opens one more entry of food item and quantity fields so that the user can add another item for donation
+o	After filling this page, user can click on raise request at the bottom of the page.
+o	Upon successful execution a screen pops up saying that the request was successfully sent to the NGO’s
+•	NGO’S functions:
+When a user raises a request of food donation, that request is sent to all the participating NGO’s so that any one can accept the request and contact the person to receive the food
+The acceptance of request is first come first serve.
+When an NGO accepts a user’s request of food donation, It shows a page stating that the acceptance of donation was successful and also it displays the contact details of the user 
+Once a user’s request has been accepted by an NGO, it is disabled.
+ 2.3 Special usage considerations
+N/A
+ 3.0 Data Model and Description
+Information domain of the software is:
+ 3.1 Data Description
+For data storage Microsoft SQL is used
+ 3.1.1 Data objects
+Stored procedures and SQL tables are used for data objects.
+ 3.1.2 Relationships
+We use primary key, foreign key constraints to show that the database tables are linked to each other.
+ 3.1.3 Complete data model
+For the software an Entity relationship diagram is developed.
+ 3.1.4 Data dictionary
+Will be provided in next version.
+4.0 Functional Model and Description
+A description of each major software function and software interface is presented.
+4.1. Description of Major Functions
+In our project, each requirement is uniquely represented. 
+4.1.1 Requirement 1  
+•	Firstly, user’s sign-up / login to the application using the credentials.
+•	Validations performed while sign up/login phase:
+o	Username has a character length limit. Username should contain a maximum of 50 letters. Username field will only accept letters and not numbers, special characters. 
+o	E-mail address will be validated following rules.
+o	Username should be unique and should not match with any other.
+o	Password cannot be less than 5 characters and more than 12 characters.
+o	Username, e-mail, password fields are required to sign up.
+o	For login Username and password are required.
+o	All the fields are mandatory. 
+4.1.2 Requirement 2
+During login,
+•	Users can login using Login page:
+•	The details provided are validated by using the stored data from the database.
+•	Username and passwords are stored in the database for the users who already hold an account with the application.
+While a new user signup, all the details provided by the user are stored in the data base using admin details.
+          4.1.3 Requirement 3
+•	Users can retrieve their forgotten passwords via provided email using “forgot password” functionality.
+•	An email should be sent to the users with the password details.
+4.1.4 Requirement 4
+When a user raises a request of food donation, that request is sent to all the participating NGO’s so that anyone can accept the request and contact the person to receive the food
+The acceptance of request is first come first serve.
+When an NGO accepts a user’s request of food donation, it shows a page stating that the acceptance of donation was successful and also it displays the contact details of the user 
+Once a user’s request has been accepted by an NGO, it is disabled.
+4.1.5 Requirement 5
+NGOs should be able to cancel the accepted request if they wish to.
+4.1.6 Requirement 6
+•	Network issues and application slowness should be handled.
+•	Data privacy should be implemented
+4.2 Software Interface Description
+The software user interface(s) to the outside world is(are) described.
+ 4.2.1 External machine interfaces
+N/A
+ 4.2.2 External system interfaces
+Gmail server will be used to send emails.
+ 4.2.3 Human interface
+N/A
+ 5.0 Restrictions, Limitations, and Constraints
+This application is not for IOS devices.
