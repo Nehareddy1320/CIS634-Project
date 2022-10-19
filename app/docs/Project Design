@@ -14,7 +14,7 @@ Group Members:
 1.0 Introduction
 This document describes all data, architectural, interface and component-level design for the software.
 1.1 Goals and objectives
-	Recover food waste by connecting potential food donors to hunger relief organizations like food banks and pantries.
+	Recover food waste by connecting potential food donors to hunger relief organizations like food banks and pantries,NGO's.
 	Recycle food waste to feed animals or to create compost, bio-energy, and natural fertilizers.
 1.2 Statement of scope
 The project will accept as input, user details, including the name of the user and their location. With the users location, the application will notify the administrators of the availability of the potential food waste, and as such, the administrators are able to take necessary actions, like dispatch food waste trucks to such locations, taking into account the needed capacity.
