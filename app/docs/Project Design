@@ -18,7 +18,6 @@ This document describes all data, architectural, interface and component-level d
 	Recycle food waste to feed animals or to create compost, bio-energy, and natural fertilizers.
 1.2 Statement of scope
 The project will accept as input, user details, including the name of the user and their location. With the users location, the application will notify the administrators of the availability of the potential food waste, and as such, the administrators are able to take necessary actions, like dispatch food waste trucks to such locations, taking into account the needed capacity.
-
 1.3 Software context
 With the software in place, businesses are able to:
 save food from going into the garbage.
@@ -27,7 +26,6 @@ save food from going into the garbage.
 	Reduced methane emissions from landfills and a lower carbon footprint.
 	Better their management of energy and resources, preventing pollution involved in the growing, manufacturing, transporting, and selling of food.
 	Benefit the community by providing donated, untouched, and safe food that would otherwise be thrown out.
-
 1.4 Major constraints
 Businesses that have access to cloud storage, may rip its benefits, such as:
 	Safe data backups; no need to worry about hard drive failures.
@@ -35,8 +33,9 @@ Businesses that have access to cloud storage, may rip its benefits, such as:
 	File encryption.
 	Lifetime access.
 With cloud storage in place, the software will have to be integrated with external data in the cloud services. This may increase the time taken in the design, implementation and testing phases.
+
 2.0 Data design
-User does data input , which brings upa need to keep that information safe and secure.Data privacy is a key factor.
+with User input , which comes the need to kep user information organized, and self-contained.
 2.1 Data structures
 Data flow from the user to the application, needs be in a unified format. For this reason the data will mostly be structured as xml, as this format can be converted to and from many representations, both in the user interface and stored in the database.
 2.2 Database description
@@ -47,10 +46,15 @@ With the need to manage user information, there is need to create such a databas
  
 3.0 Architectural and component-level design
 3.1 Architecture diagrams
-
-
+    user Login --------> Client Authentication --------> User reports potential Food waste
+        |                         
+        |
+        |
+  Administrator --------> Check f0r requests for --------> Dispatch of food waste 
+  Authentication           food waste collection             collection Trucks
 3.2 External Interface Description
 To support cloud storage, the application will implement Application Programming Interfaces available for top cloud storage providers.
-5.0 Restrictions, limitations, and constraints
+
+4.0 Restrictions, limitations, and constraints
 There are many Operating Systems available, each following different standards of application development. Catering for all of the Operating Systems would be not be possible; this is because some Operating Systems do not even support development using the target programming language.
 
