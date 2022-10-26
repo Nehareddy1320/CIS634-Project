@@ -57,3 +57,9 @@ Test Input	User Name, Email ID, Phone Number, Password
 Expected Output	Username not valid
 Description	The user should give unique username
 
+ID	Test_case 6
+Test Input	User Name , Password
+Expected Output	Username is Required
+Description	Username is a must. Without giving the username, user can not proceed further with logging in.
+
+
