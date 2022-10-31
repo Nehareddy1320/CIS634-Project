@@ -61,3 +61,14 @@ ID	5
 Test Input	A brute force, or dictionary attack of a given user account.
 Expected Output	Account locked, and no other sign in attempts accepted. 
 Description	A brute force attack entails repeatedly trying a combination of a user password, to illegally access a user account. A dictionary attack, on the other hand involves using a known group of common passwords that are suspected to be the actual password of the user. To mitigate such attacks on the database, a user will only be allowed to retry a limited number of times to login with wrong credentials, after which the account will be locked and no more sign ins will be accepted.
+
+ID	6
+Test Input	A combination of many user account email addresses and passwords used to access the database, from many unknown sources.
+Expected Output	Request filtering.
+Description	When many user account emails and passwords are used to access the database, determining whether such an attack is a brute force attack will most likely cause many unintentionally locked accounts. This can also block of legitimate users from accessing the service. This can be immediately minimized by request filtering, to only allow possibly legitimate users first priority access. Such users are those that have 2-factor authentication turned on, and have indeed been successfully 2-factor authenticated.
+
+ID	7
+Test Input	Send a user logout request as a GET Http Request.
+Expected Output	Failed log out, and user notified of such an action.
+Description	Due to compromises in the user’s browser, a malicious browser or its extension, could unintentionally log the user out of the service by sending a GET request in the user’s logout endpoint to sign the user out. For this reason, such logout requests should only be a POST Http request, for an added layer of user control.
+
