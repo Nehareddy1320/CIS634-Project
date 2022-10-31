@@ -51,3 +51,13 @@ ID	3
 Test Input	Get the details of a user who has not been already registered in the database.
 Expected Output	Database access error. The user needs to get his details registered first.
 Description	A user who has not registered their details in the database should not be able to access any user information from the database. Instead they should be presented with a sign in form, in the front-end, so that their details can be captured and registered in the database.
+
+ID	4
+Test Input	User authentication with the wrong credentials, a wrong combination of email address and password.
+Expected Output	Access to the specified account is denied.
+Description	Using wrong credentials to access the database, should never be acceptable. A user’s data should only be accessed by the user alone; any wrong credentials submitted by a user should deny the user access to the database.
+
+ID	5
+Test Input	A brute force, or dictionary attack of a given user account.
+Expected Output	Account locked, and no other sign in attempts accepted. 
+Description	A brute force attack entails repeatedly trying a combination of a user password, to illegally access a user account. A dictionary attack, on the other hand involves using a known group of common passwords that are suspected to be the actual password of the user. To mitigate such attacks on the database, a user will only be allowed to retry a limited number of times to login with wrong credentials, after which the account will be locked and no more sign ins will be accepted.
