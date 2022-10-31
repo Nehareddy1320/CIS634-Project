@@ -72,3 +72,18 @@ Test Input	Send a user logout request as a GET Http Request.
 Expected Output	Failed log out, and user notified of such an action.
 Description	Due to compromises in the user’s browser, a malicious browser or its extension, could unintentionally log the user out of the service by sending a GET request in the user’s logout endpoint to sign the user out. For this reason, such logout requests should only be a POST Http request, for an added layer of user control.
 
+ID	8
+Test Input	Perform database operations that may affect other users than the user currently logged in as a standard user.
+Expected Output	Access denied prompt.
+Description	Users who are not admins, are not allowed to perform database operations that may affect other users, such as deleting another users data, manipulating another user’s data.
+ 
+ID	9
+Test Input	Enter a known set of user details in the graphical front-end, and submit through the API to the Database.
+Expected Output	The defined set of user details entered in the graphical front-end should be the same as the details stored in the database.
+Description	User details entered in the graphical front-end should be transferred safely as is through the API to the back-end.
+
+ID	10
+Test Input	User enters details in the graphical front-end to request for the collection of possible food wastage, and submits the request.
+Expected Output	The user’s requests is persisted in the database and the admin notified of its availability.
+Description	When a user identifies a possible food waste, the user is able to request for the collection of the potential food waste, in which case the admin should respond.
+
