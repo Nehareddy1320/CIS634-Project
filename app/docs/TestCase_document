@@ -18,48 +18,36 @@ Manasa Moduga : 2845854
 
  
 1.0 Introduction
-This document describes all data, architectural, interface and component-level design for the software.
-1.1 Goals and objectives
-	Recover food waste by connecting potential food donors to hunger relief organizations like food banks and pantries.
-	Recycle food waste to feed animals or to create compost, bio-energy, and natural fertilizers.
+Being a Java application, there are many test frameworks available. The project opts to use junit test framework due to its versatility, performance, flexibility, reliability, and a wide network of testers and bug fixes.
+ 1.1 Goals and objectives
+It would be a goal achieved if all the various tests outlined in this document pass. Tests that fail often are an evident cause of an error in the software development process, and as such, such tests that fail will point the team towards narrowing down to where exactly there is an error; in which case they can be resolved.
  1.2 Statement of scope
- 2.0 Test Plan
-This section describes the overall testing strategy and the project management issues that are required to properly execute effective tests.
-2.1 Software to be tested
-Virtual machines should be used to test Android applications in Android Studio.
-2.2 Test schedule
-After the application has been developed, testing will take place.
- 3.0 Test Cases
-This section enumerates a complete list of test cases for the software. A template for test cases is as follows.
-ID	Test_case 1
-Test Input	User Name, Email ID, Phone Number, Password
-Expected Output	User Registered
-Description	The user should register with the required details
+The scope of these tests will be on the database, the application back end, and the application front end, the graphical user interface, and the API layer connecting the database to the graphical user interface.
+2.0 Test Plan
+Tests are vital in determining whether the application software is working correctly, and performing exactly the task it is expected to do, to produce the anticipated output; this will try to minimize the effects of GIGO (Garbage In Garbage Out) in the application’s ecosystem.
+ 2.1 Software to be tested
+The graphical user interface, which is a front end to the application; the database, a vital information store as a back end; and the API layer connecting the two components will be tested, to assert that the application software always works correctly to connect all the parts.
+ 2.2 Testing tools and environment
+The Java language supports many test frameworks, to ease and automate the testing process, without the developers having to re-invent the wheel.
+The current version of Junit test framework, version 5, will be used to create and automate unit tests.
+The project will utilize Java 15 features for the source code; as with these release of the JVM, we can leverage the use of Sealed classes and an improved implementation of Data classes (Records), within our tests.
+The JVM being cross-platform, such tests should run on any platform with a Virtual Machine supporting the target Java version.
+ 2.3 Test schedule
+The tests will be done on a per unit basis, to assert that a given unit truly does what it claims to do, before the unit can be merged with other units; which consequently calls for a merged unit test.
+Merged unit tests will be done repeatedly, in the event that a change occurs in any group of units that has a direct impact on the correctness of the merged test.
+3.0 Test Cases
+The following test cases are vital for the Database back end:
+ID	1
+Test Input	Add a new user to the database.
+Expected Output	The number of all users in the database increases by one.
+Description	In a database insert operation, we expect that when a user is added to the database, then the number of all users in the database should also increase by one; if that is not the case, then either there was a missed database commit, or an error occurred and the database could not allow the addition of the user.
 
-ID	Test_case 2
-Test Input	User Name, Password
-Expected Output	Login Successful
-Description	The user logged in successfully with registered details
-
-
-ID	Test_case 3
-Test Input	User Name, Password
-Expected Output	Username or Password incorrect
-Description	The user gave incorrect credentials while logging in
-
-ID	Test_case 4
-Test Input	User Name, Email ID, Phone Number, Password
-Expected Output	Username should not contain Special characters and numbers
-Description	The user used numbers or special characters in username while registering
-
-ID	Test_case 5
-Test Input	User Name, Email ID, Phone Number, Password
-Expected Output	Username not valid
-Description	The user should give unique username
-
-ID	Test_case 6
-Test Input	User Name , Password
-Expected Output	Username is Required
-Description	Username is a must. Without giving the username, user can not proceed further with logging in.
-
-
+ID	2
+Test Input	Add a user that was added earlier to the database.
+Expected Output	A database insertion error.
+Description	When a user, who already exists in the database, is added to the database, it is expected that the database throws an error for adding a duplicate user. This ensures that only one user details, a unique email address or phone number, exists in the database.
+ 
+ID	3
+Test Input	Get the details of a user who has not been already registered in the database.
+Expected Output	Database access error. The user needs to get his details registered first.
+Description	A user who has not registered their details in the database should not be able to access any user information from the database. Instead they should be presented with a sign in form, in the front-end, so that their details can be captured and registered in the database.
