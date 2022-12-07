@@ -1,1 +1,274 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [io.objectbox:objectbox-android:3.4.0] /home/anyona/.gradle/caches/transforms-3/9d4256da3db0fc862925f8c526fb41cb/transformed/objectbox-android-3.4.0/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/anyona/.gradle/caches/transforms-3/56ea2b4f6e694615ee148d891be8987c/transformed/viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.1] /home/anyona/.gradle/caches/transforms-3/4cea89f072823e42bfafe12eb0a71049/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/anyona/.gradle/caches/transforms-3/53c7cd8a8a2d1414cf64fa2c572b6e69/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /home/anyona/.gradle/caches/transforms-3/98425b7ebfbb03f67b66234ff646367f/transformed/appcompat-resources-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.0] /home/anyona/.gradle/caches/transforms-3/0f473a497390542de404c4593fd1ccba/transformed/appcompat-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anyona/.gradle/caches/transforms-3/b3703b429ea5d22e471b4d0f76fe6126/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/anyona/.gradle/caches/transforms-3/e7d94d6da2c991d156900397c9b15082/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.0] /home/anyona/.gradle/caches/transforms-3/f7c4a1356502e2911f94d160b4a35b23/transformed/activity-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/anyona/.gradle/caches/transforms-3/a7eac1237065c7cd1c3e314cf6bbd42b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anyona/.gradle/caches/transforms-3/35e144304549e48692cdda13e29f831f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/anyona/.gradle/caches/transforms-3/7076ec5ada5a4cd4b816bcb58c3b839c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /home/anyona/.gradle/caches/transforms-3/a828af6231a599029826f75df8f7f403/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /home/anyona/.gradle/caches/transforms-3/b8c63c0841a7f4514c07280e2c5f2d8c/transformed/lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /home/anyona/.gradle/caches/transforms-3/313b523356ea3873875eec82d0453bfd/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/anyona/.gradle/caches/transforms-3/294d97d63c14df9e919fb4d164af0f40/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/anyona/.gradle/caches/transforms-3/6e67d8d89d6c7ac18473079cb284d355/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anyona/.gradle/caches/transforms-3/a627e549eadf5a113265d504a972587e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/anyona/.gradle/caches/transforms-3/70d0b9c4f70d704cb3140c5b0a3607eb/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anyona/.gradle/caches/transforms-3/dd6740ee48f9227ca1453f68a255a180/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anyona/.gradle/caches/transforms-3/72143e897ff74f883a7acb84b191a799/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anyona/.gradle/caches/transforms-3/1fec15c8d00327098451a95a6f684a83/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anyona/.gradle/caches/transforms-3/5d11e3e425ec7217de3fefd5f1c46c68/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/anyona/.gradle/caches/transforms-3/267e0292ebe4ad1437a651adff70771a/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] /home/anyona/.gradle/caches/transforms-3/30672e141b9fd7a2db5a58353cd71442/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anyona/.gradle/caches/transforms-3/acfc0f890342c4d38d139d3831457750/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anyona/.gradle/caches/transforms-3/5b265bcb1aaa335c372411f30eec3fac/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /home/anyona/.gradle/caches/transforms-3/f2e22b14a12ad3fdbdb79a0926ceb119/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/anyona/.gradle/caches/transforms-3/84f75e59480340f898cd3fd1dc24d2dd/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/anyona/.gradle/caches/transforms-3/3dbdb69960bc7318cdfc80d26b079960/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/anyona/.gradle/caches/transforms-3/64b9da7a35226edb4bdcacfa0b9f9802/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anyona/.gradle/caches/transforms-3/987948bde11bb99a826b26259d317abf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/anyona/.gradle/caches/transforms-3/29dc2b64ee38054998c3d9bc071bc18e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /home/anyona/.gradle/caches/transforms-3/14ee6f24546691fd3d43a0f4a86c4024/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anyona/.gradle/caches/transforms-3/ca69ae04d63386d5fccc1c0c3e08cfba/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anyona/.gradle/caches/transforms-3/65ea88765ff15e1b1482f5534cf59d06/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anyona/.gradle/caches/transforms-3/6504c9814f504d37c727a7444a6b858d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anyona/.gradle/caches/transforms-3/1cfe082a433c25e74b5576dd67962cd6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/anyona/.gradle/caches/transforms-3/c665ad8b5c4c2883496753e8d42a279d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/anyona/.gradle/caches/transforms-3/f7a82ecb29cbd5f7bf041c0c52ee1ad8/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:4:5-45:19
+MERGED from [com.google.android.material:material:1.6.1] /home/anyona/.gradle/caches/transforms-3/4cea89f072823e42bfafe12eb0a71049/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /home/anyona/.gradle/caches/transforms-3/4cea89f072823e42bfafe12eb0a71049/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/anyona/.gradle/caches/transforms-3/53c7cd8a8a2d1414cf64fa2c572b6e69/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/anyona/.gradle/caches/transforms-3/53c7cd8a8a2d1414cf64fa2c572b6e69/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] /home/anyona/.gradle/caches/transforms-3/30672e141b9fd7a2db5a58353cd71442/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /home/anyona/.gradle/caches/transforms-3/30672e141b9fd7a2db5a58353cd71442/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/anyona/.gradle/caches/transforms-3/3dbdb69960bc7318cdfc80d26b079960/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/anyona/.gradle/caches/transforms-3/3dbdb69960bc7318cdfc80d26b079960/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anyona/.gradle/caches/transforms-3/987948bde11bb99a826b26259d317abf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anyona/.gradle/caches/transforms-3/987948bde11bb99a826b26259d317abf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /home/anyona/.gradle/caches/transforms-3/30672e141b9fd7a2db5a58353cd71442/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:10:9-57
+activity#project.foodwastemanagement.AddFoodWasteActivity
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:exported
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:12:13-49
+meta-data#android.app.lib_name
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:14:13-16:36
+	android:value
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:16:17-33
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:15:17-52
+activity#project.foodwastemanagement.HomepageActivity
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:21:13-60
+	android:exported
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:20:13-37
+	android:theme
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:19:13-45
+activity#project.foodwastemanagement.MainActivity
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:exported
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:33:27-74
+activity#project.foodwastemanagement.Main2Activity
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:36:9-39:64
+	android:configChanges
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:38:13-59
+	android:theme
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:39:13-61
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:37:13-42
+activity#project.foodwastemanagement.Main3Activity
+ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:40:9-44:15
+	android:configChanges
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:42:13-59
+	android:theme
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:43:13-61
+	android:name
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml:41:13-42
+uses-sdk
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+MERGED from [io.objectbox:objectbox-android:3.4.0] /home/anyona/.gradle/caches/transforms-3/9d4256da3db0fc862925f8c526fb41cb/transformed/objectbox-android-3.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.objectbox:objectbox-android:3.4.0] /home/anyona/.gradle/caches/transforms-3/9d4256da3db0fc862925f8c526fb41cb/transformed/objectbox-android-3.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/anyona/.gradle/caches/transforms-3/56ea2b4f6e694615ee148d891be8987c/transformed/viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/anyona/.gradle/caches/transforms-3/56ea2b4f6e694615ee148d891be8987c/transformed/viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.1] /home/anyona/.gradle/caches/transforms-3/4cea89f072823e42bfafe12eb0a71049/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /home/anyona/.gradle/caches/transforms-3/4cea89f072823e42bfafe12eb0a71049/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/anyona/.gradle/caches/transforms-3/53c7cd8a8a2d1414cf64fa2c572b6e69/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/anyona/.gradle/caches/transforms-3/53c7cd8a8a2d1414cf64fa2c572b6e69/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /home/anyona/.gradle/caches/transforms-3/98425b7ebfbb03f67b66234ff646367f/transformed/appcompat-resources-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /home/anyona/.gradle/caches/transforms-3/98425b7ebfbb03f67b66234ff646367f/transformed/appcompat-resources-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.0] /home/anyona/.gradle/caches/transforms-3/0f473a497390542de404c4593fd1ccba/transformed/appcompat-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.0] /home/anyona/.gradle/caches/transforms-3/0f473a497390542de404c4593fd1ccba/transformed/appcompat-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anyona/.gradle/caches/transforms-3/b3703b429ea5d22e471b4d0f76fe6126/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/anyona/.gradle/caches/transforms-3/b3703b429ea5d22e471b4d0f76fe6126/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/anyona/.gradle/caches/transforms-3/e7d94d6da2c991d156900397c9b15082/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/anyona/.gradle/caches/transforms-3/e7d94d6da2c991d156900397c9b15082/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] /home/anyona/.gradle/caches/transforms-3/f7c4a1356502e2911f94d160b4a35b23/transformed/activity-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] /home/anyona/.gradle/caches/transforms-3/f7c4a1356502e2911f94d160b4a35b23/transformed/activity-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/anyona/.gradle/caches/transforms-3/a7eac1237065c7cd1c3e314cf6bbd42b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/anyona/.gradle/caches/transforms-3/a7eac1237065c7cd1c3e314cf6bbd42b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anyona/.gradle/caches/transforms-3/35e144304549e48692cdda13e29f831f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/anyona/.gradle/caches/transforms-3/35e144304549e48692cdda13e29f831f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anyona/.gradle/caches/transforms-3/7076ec5ada5a4cd4b816bcb58c3b839c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/anyona/.gradle/caches/transforms-3/7076ec5ada5a4cd4b816bcb58c3b839c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /home/anyona/.gradle/caches/transforms-3/a828af6231a599029826f75df8f7f403/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /home/anyona/.gradle/caches/transforms-3/a828af6231a599029826f75df8f7f403/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /home/anyona/.gradle/caches/transforms-3/b8c63c0841a7f4514c07280e2c5f2d8c/transformed/lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /home/anyona/.gradle/caches/transforms-3/b8c63c0841a7f4514c07280e2c5f2d8c/transformed/lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /home/anyona/.gradle/caches/transforms-3/313b523356ea3873875eec82d0453bfd/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /home/anyona/.gradle/caches/transforms-3/313b523356ea3873875eec82d0453bfd/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/anyona/.gradle/caches/transforms-3/294d97d63c14df9e919fb4d164af0f40/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/anyona/.gradle/caches/transforms-3/294d97d63c14df9e919fb4d164af0f40/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/anyona/.gradle/caches/transforms-3/6e67d8d89d6c7ac18473079cb284d355/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/anyona/.gradle/caches/transforms-3/6e67d8d89d6c7ac18473079cb284d355/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anyona/.gradle/caches/transforms-3/a627e549eadf5a113265d504a972587e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/anyona/.gradle/caches/transforms-3/a627e549eadf5a113265d504a972587e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/anyona/.gradle/caches/transforms-3/70d0b9c4f70d704cb3140c5b0a3607eb/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/anyona/.gradle/caches/transforms-3/70d0b9c4f70d704cb3140c5b0a3607eb/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anyona/.gradle/caches/transforms-3/dd6740ee48f9227ca1453f68a255a180/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/anyona/.gradle/caches/transforms-3/dd6740ee48f9227ca1453f68a255a180/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anyona/.gradle/caches/transforms-3/72143e897ff74f883a7acb84b191a799/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/anyona/.gradle/caches/transforms-3/72143e897ff74f883a7acb84b191a799/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anyona/.gradle/caches/transforms-3/1fec15c8d00327098451a95a6f684a83/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/anyona/.gradle/caches/transforms-3/1fec15c8d00327098451a95a6f684a83/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anyona/.gradle/caches/transforms-3/5d11e3e425ec7217de3fefd5f1c46c68/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/anyona/.gradle/caches/transforms-3/5d11e3e425ec7217de3fefd5f1c46c68/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/anyona/.gradle/caches/transforms-3/267e0292ebe4ad1437a651adff70771a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/anyona/.gradle/caches/transforms-3/267e0292ebe4ad1437a651adff70771a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /home/anyona/.gradle/caches/transforms-3/30672e141b9fd7a2db5a58353cd71442/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /home/anyona/.gradle/caches/transforms-3/30672e141b9fd7a2db5a58353cd71442/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anyona/.gradle/caches/transforms-3/acfc0f890342c4d38d139d3831457750/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/anyona/.gradle/caches/transforms-3/acfc0f890342c4d38d139d3831457750/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anyona/.gradle/caches/transforms-3/5b265bcb1aaa335c372411f30eec3fac/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/anyona/.gradle/caches/transforms-3/5b265bcb1aaa335c372411f30eec3fac/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /home/anyona/.gradle/caches/transforms-3/f2e22b14a12ad3fdbdb79a0926ceb119/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /home/anyona/.gradle/caches/transforms-3/f2e22b14a12ad3fdbdb79a0926ceb119/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/anyona/.gradle/caches/transforms-3/84f75e59480340f898cd3fd1dc24d2dd/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/anyona/.gradle/caches/transforms-3/84f75e59480340f898cd3fd1dc24d2dd/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/anyona/.gradle/caches/transforms-3/3dbdb69960bc7318cdfc80d26b079960/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/anyona/.gradle/caches/transforms-3/3dbdb69960bc7318cdfc80d26b079960/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/anyona/.gradle/caches/transforms-3/64b9da7a35226edb4bdcacfa0b9f9802/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/anyona/.gradle/caches/transforms-3/64b9da7a35226edb4bdcacfa0b9f9802/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anyona/.gradle/caches/transforms-3/987948bde11bb99a826b26259d317abf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/anyona/.gradle/caches/transforms-3/987948bde11bb99a826b26259d317abf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/anyona/.gradle/caches/transforms-3/29dc2b64ee38054998c3d9bc071bc18e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/anyona/.gradle/caches/transforms-3/29dc2b64ee38054998c3d9bc071bc18e/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /home/anyona/.gradle/caches/transforms-3/14ee6f24546691fd3d43a0f4a86c4024/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /home/anyona/.gradle/caches/transforms-3/14ee6f24546691fd3d43a0f4a86c4024/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anyona/.gradle/caches/transforms-3/ca69ae04d63386d5fccc1c0c3e08cfba/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/anyona/.gradle/caches/transforms-3/ca69ae04d63386d5fccc1c0c3e08cfba/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anyona/.gradle/caches/transforms-3/65ea88765ff15e1b1482f5534cf59d06/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/anyona/.gradle/caches/transforms-3/65ea88765ff15e1b1482f5534cf59d06/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anyona/.gradle/caches/transforms-3/6504c9814f504d37c727a7444a6b858d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/anyona/.gradle/caches/transforms-3/6504c9814f504d37c727a7444a6b858d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anyona/.gradle/caches/transforms-3/1cfe082a433c25e74b5576dd67962cd6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/anyona/.gradle/caches/transforms-3/1cfe082a433c25e74b5576dd67962cd6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anyona/.gradle/caches/transforms-3/c665ad8b5c4c2883496753e8d42a279d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/anyona/.gradle/caches/transforms-3/c665ad8b5c4c2883496753e8d42a279d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/anyona/.gradle/caches/transforms-3/f7a82ecb29cbd5f7bf041c0c52ee1ad8/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/anyona/.gradle/caches/transforms-3/f7a82ecb29cbd5f7bf041c0c52ee1ad8/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anyona/Developer/IDE/AndroidStudioProjects/Projects/by_date/2022.09.02/FoodWasteManagement/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/anyona/.gradle/caches/transforms-3/3dbdb69960bc7318cdfc80d26b079960/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/anyona/.gradle/caches/transforms-3/3dbdb69960bc7318cdfc80d26b079960/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/anyona/.gradle/caches/transforms-3/4d3ccba53594bf81254f617ee31c7b7b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/anyona/.gradle/caches/transforms-3/55bc8af69f4e393d72241cb3f435eb06/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 
