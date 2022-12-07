@@ -1,0 +1,259 @@
+OBJECT ORIENTED SOFTWARE
+FOOD WASTAGE MANAGEMENT
+
+ 
+
+
+
+Team members:
+1.	Neha Reddy Baddam: 2828070
+2.	Nikitha Thangellapally: 2844791
+3.	Manasa Moduga: 2845854
+4.	Seshasai Vamsikrishna Murthy Nidadavolu:2845851
+
+
+
+ABSTRACT:
+Food waste is a major problem in 21st century society, and stopping it requires a plan that businesses, institutions, and individuals can follow.
+Food waste is becoming a global phenomenon. Statistics show that an estimated one-third of edible food intended for human consumption is wasted worldwide. This equates to about 1.3 billion tons per year.
+Also, Casual parties and big gatherings involves excessive food and most of the food ends up in trash, getting wasted.
+Food wastage also means wasting all the energy and water it takes to grow, harvest, transport, and package it.
+Food wastage management system is all about finding potential food wastage in and around the city and making it available to the people who need food.
+Food wastage management system is basically an android application which lets the needy find food.
+Name of the project: Food Wastage Management.
+Technologies: Java, XML
+Database: Microsoft SQL
+Description:
+The main goal of this application is to help in reducing wastage of food. This
+application has 2 logins. One is as admin and other is as a regular user. This
+application has registration page, login page and main page.
+Users can register and login with a unique username. An inbuilt username
+and password will be given to the admin. There will be only one admin for this
+application.
+There will be 2 homepages. One for the users – to request food, other is for
+the admin – access the requests and approves it. Admin will have all the authorities
+like approving a request, cancelling a request, and modifying a request. Users can
+only create a request.
+
+REQUIREMENTS SPECIFICATION:
+A software requirements specification (SRS) is a description of a software system to be developed. It is modeled after the Business Requirements Specification (CONOPS). A software requirements specification specifies functional and non-functional requirements and can include a set of use cases that describe the user interactions that the software must provide to the user for full interaction.
+
+Requirements specification describes all data, functional and behavioral requirements for software.
+Requirements specification for Food wastage management system are as follows:
+a.	There is a lot of food wastage which happens on a regular basis via parties, events or gatherings. The main goal of this project is to help save food from getting wasted.
+b.	This project delivers a working application based on android which provides a user-friendly UI satisfying all the requirements and goals.
+c.	This project uses android studio application for development. For database we use MSSQL.  For testing, we plan to use MSSQL, and android studio installed. The background coding is done using Java and JavaScript.
+d.	This application is only compatible with android devices. It doesn’t work on IOS systems.
+User requirements:
+For this application the user can be anyone.
+Our main goal is to create a user-friendly application with all the necessary features.
+Requirement 1  
+      • Firstly, user’s sign-up / login to the application using the credentials.
+•	Validations performed while sign up/login phase:
+•	Username has a character length limit. Username should contain a maximum of 50 letters. Username field will only accept letters and not numbers, special characters. 
+•	E-mail address will be validated following rules.
+•	Username should be unique and should not match with any other.
+•	Password cannot be less than 5 characters and more than 12 characters.
+•	Username, e-mail, password fields are required to sign up.
+•	for login, Username and password are required.
+•	All the fields are mandatory. 
+Requirement 2
+During login,
+•	Users can login using Login page:
+•	The details provided are validated by using the stored data from the database.
+•	Username and passwords are stored in the database for the users who already hold an account with the application.
+While a new user signup, all the details provided by the user are stored in the data base using admin details.
+ Requirement 3
+•	Users can retrieve their forgotten passwords via provided email using “forgot password” functionality.
+•	An email should be sent to the users with the password details.
+ Requirement 4
+When a user raises a request of food donation, that request is sent to admin so that anyone can accept the request and contact the person to receive the food
+The acceptance of request is first come first serve.
+When admin accepts a user’s request of food donation, it shows a page stating that the acceptance of donation was successful, and it displays the contact details of the user 
+Once a user’s request has been accepted by an admin, it is disabled.
+Requirement 5
+Admin should be able to cancel the accepted request if they wish to.
+Requirement 6
+       •Network issues and application slowness should be handled.
+       •Data privacy should be implemented
+            Use-cases
+       •Firstly, user’s sign-up / login to the application using the credentials.
+       •Validations performed while sign up/login phase:
+•	Username has a character length limit. Username should contain a maximum of 50 letters. Username field will only accept letters and not numbers, special characters. 
+•	E-mail address will be validated following rules.
+•	Username should be unique and should not match with any other.
+•	Password cannot be less than 5 characters and more than 12 characters.
+•	Username, e-mail, password fields are required to sign up.
+•	for login, Username and password are required.
+•	All the fields are mandatory.
+Login-page:
+                The users who already have an account can directly login using the login page.
+•	Validation made during login:
+•	Username is verified from the database. Account holders’ information is already recorded in the database. Validation can be done from there.
+•	When password is entered, it is matched with the data already present and is then validated.
+•	Username and password fields are mandatory and can’t be blank.
+Forgot password:
+•	If a user forgets his/her password, the password can be retrieved from the attached e-mail.
+•	A password reset link will be sent to the email upon request.
+
+User’s functions:
+•	When a student logs into the application, a screen pops up with two buttons called donate and view
+•	A user who wants to donate food can click on donate and this will take him/her to raise a donate request.
+•	This page is called food details page.
+•	This page has 2 fields:
+•	Name of the food item, quantity
+•	Another filed called add another item, when this field is clicked it opens one more entry of food item and quantity fields so that the user can add another item for donation
+•	After filling this page, user can click on raise request at the bottom of the page.
+•	Upon successful execution a screen pops up saying that the request was successfully sent to the admin.
+Admin functions:
+When a user raises a request of food donation, that request is sent to admin so that anyone can accept the request and contact the person to receive the food
+The acceptance of request is first come first serve.
+When admin accepts a user’s request of food donation, It shows a page stating that the acceptance of donation was successful and also it displays the contact details of the user 
+Once a user’s request has been accepted by an admin, it is disabled.
+
+DESIGN SPECIFICATIONS:
+This document describes all data, architectural, interface and component-level design for the software.
+Goals and objectives
+•	Recover food waste by connecting potential food donors to hunger relief organizations like food banks and pantries.
+•	Recycle food waste to feed animals or to create compost, bioenergy, and natural fertilizers.
+Statement of scope
+The project will accept as input, user details, including the name of the user and their location. With the user’s location, the application will notify the administrators of the availability of the potential food waste, and as such, the administrators are able to take necessary actions, like dispatch food waste trucks to such locations, taking into account the needed capacity.
+
+Software context
+With the software in place, businesses can:
+•	Save costs on labor through more efficient handling, preparation, and storage of food that will be used.
+•	As a result of the analysis of the data on food waste collected; save costs when purchasing only as much food as needed and avoiding additional costs of disposal.
+•	Reduced methane emissions from landfills and a lower carbon footprint.
+•	Better their management of energy and resources, preventing pollution involved in the growing, manufacturing, transporting, and selling of food.
+•	Benefit the community by providing donated, untouched, and safe food that would otherwise be thrown out.
+
+Major constraints
+Businesses that have access to cloud storage, may rip its benefits, such as:
+•	Safe data backups: no need to worry about hard drive failures.
+•	Remote updates and data sync.
+•	File encryption.
+•	Lifetime access.
+With cloud storage in place, the software will have to be integrated with external data in the cloud services. This may increase the time taken in the design, implementation and testing phases.
+Data design
+With user input, comes the need to keep user information organized, and self-contained.
+Data structures
+Data flow from the user to the application, needs be in a unified format. For this reason the data will mostly be structured as xml, as this format can be converted to and from many representations, both in the user interface and stored in the database.
+Database description
+With the need to manage user information, there is need to create such a database, to ensure user information is organized and is only accessible to authorized personnel, or by the sole user on request. Such a database would hold information such as:
+•	Users’ names and contact details.
+•	The location of such users, and where exactly the potential food waste was spotted by the user.
+•	The application settings applied by the users; to keep track of what the user wants done every time the application is used.
+
+
+
+
+
+
+
+
+Architectural and component-level design
+Architecture diagrams
+
+
+
+ External Interface Description
+To support cloud storage, the application will implement Application Programming Interfaces available for top cloud storage providers.
+Restrictions, limitations, and constraints
+There are many Operating Systems available, each following different standards of application development. Catering for all the Operating Systems would not be possible; this is because some Operating Systems do not even support development using the target programming language.
+
+
+Test Plan
+Tests are vital in determining whether the application software is working correctly and performing exactly the task it is expected to do, to produce the anticipated output; this will try to minimize the effects of GIGO (Garbage In Garbage Out) in the application’s ecosystem.
+ Software to be tested
+The graphical user interface, which is a front end to the application; the database, a vital information store as a back end; and the API layer connecting the two components will be tested, to assert that the application software always works correctly to connect all the parts.
+Testing tools and environment
+The Java language supports many test frameworks, to ease and automate the testing process, without the developers having to re-invent the wheel.
+The current version of Junit test framework, version 5, will be used to create and automate unit tests.
+The project will utilize Java 15 features for the source code; as with this release of the JVM, we can leverage the use of Sealed classes and an improved implementation of Data classes (Records), within our tests.
+The JVM being cross-platform, such tests should run on any platform with a Virtual Machine supporting the target Java version.
+Test schedule
+The tests will be done on a per unit basis, to assert that a given unit truly does what it claims to do, before the unit can be merged with other units; which consequently calls for a merged unit test.
+Merged unit tests will be done repeatedly, in the event that a change occurs in any group of units that has a direct impact on the correctness of the merged test.
+ Test Cases
+The following test cases are vital for the Database back end:
+ID	1
+Test Input	Add a new user to the database.
+Expected Output	The number of all users in the database increases by one.
+Description	In a database insert operation, we expect that when a user is added to the database, then the number of all users in the database should also increase by one; if that is not the case, then either there was a missed database commit, or an error occurred and the database could not allow the addition of the user.
+
+ID	2
+Test Input	Add a user that was added earlier to the database.
+Expected Output	A database insertion error.
+Description	When a user, who already exists in the database, is added to the database, it is expected that the database throws an error for adding a duplicate user. This ensures that only one user details, a unique email address or phone number, exists in the database.
+ 
+ID	3
+Test Input	Get the details of a user who has not been already registered in the database.
+Expected Output	Database access error. The user needs to get his details registered first.
+Description	A user who has not registered their details in the database should not be able to access any user information from the database. Instead they should be presented with a sign in form, in the front-end, so that their details can be captured and registered in the database.
+
+ID	4
+Test Input	User authentication with the wrong credentials, a wrong combination of email address and password.
+Expected Output	Access to the specified account is denied.
+Description	Using wrong credentials to access the database, should never be acceptable. A user’s data should only be accessed by the user alone; any wrong credentials submitted by a user should deny the user access to the database.
+
+ID	5
+Test Input	A brute force, or dictionary attack of a given user account.
+Expected Output	Account locked, and no other sign in attempts accepted. 
+Description	A brute force attack entails repeatedly trying a combination of a user password, to illegally access a user account. A dictionary attack, on the other hand involves using a known group of common passwords that are suspected to be the actual password of the user. To mitigate such attacks on the database, a user will only be allowed to retry a limited number of times to login with wrong credentials, after which the account will be locked and no more sign ins will be accepted.
+ 
+ID	6
+Test Input	A combination of many user account email addresses and passwords used to access the database, from many unknown sources.
+Expected Output	Request filtering.
+Description	When many user account emails and passwords are used to access the database, determining whether such an attack is a brute force attack will most likely cause many unintentionally locked accounts. This can also block of legitimate users from accessing the service. This can be immediately minimized by request filtering, to only allow possibly legitimate users first priority access. Such users are those that have 2-factor authentication turned on, and have indeed been successfully 2-factor authenticated.
+
+ID	7
+Test Input	Send a user logout request as a GET Http Request.
+Expected Output	Failed log out, and user notified of such an action.
+Description	Due to compromises in the user’s browser, a malicious browser or its extension, could unintentionally log the user out of the service by sending a GET request in the user’s logout endpoint to sign the user out. For this reason, such logout requests should only be a POST Http request, for an added layer of user control.
+
+
+ID	8
+Test Input	Perform database operations that may affect other users than the user currently logged in as a standard user.
+Expected Output	Access denied prompt.
+Description	Users who are not admins, are not allowed to perform database operations that may affect other users, such as deleting another user’s data, manipulating another user’s data.
+
+ID	9
+Test Input	Enter a known set of user details in the graphical front-end and submit through the API to the Database.
+Expected Output	The defined set of user details entered in the graphical front-end should be the same as the details stored in the database.
+Description	User details entered in the graphical front-end should be transferred safely as is through the API to the back end.
+
+ID	10
+Test Input	User enters details in the graphical front-end to request for the collection of possible food wastage and submits the request.
+Expected Output	The user’s requests is persisted in the database and the admin notified of its availability.
+Description	When a user identifies a possible food waste, the user can request for the collection of the potential food waste, in which case the admin should respond.
+
+Output:
+ 
+Main page:
+This is the beginning page where the logo of the application is present
+We also have link at the bottom to login/ sign up
+
+ 
+Registration page:
+New users can create an account here
+
+ 
+Login Page:
+Users who are already registered with the application can directly login using their credentials
+
+   
+A user can add the details like place, state county and town of the location where there is extra food.
+This request will be sent to admin and admin gets to decide whether to accept the request or not.
+
+ 
+
+Request Page:
+A user can see the list of PENDING, accepted requests here.
+ 
+Admin Side:
+•	The first page here is login page 
+•	The next page is requests page where admin can see the submitted requests and decide whether to accept or reject 
+•	Accepted requests are visible in the application
+CONCLUSION:
+Food Wastage Management system focuses on providing users a friendly interface and allowing users to raise food wastage management requests helping the needy.
+
