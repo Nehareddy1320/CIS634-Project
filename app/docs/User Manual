@@ -1,0 +1,134 @@
+USER MANUAL
+Project Title: Food Wastage Management
+
+
+ 
+
+
+Team members:
+1.	Neha Reddy Baddam: 2828070
+2.	Nikitha Thangellapally: 2844791
+3.	Manasa Moduga: 2845854
+4.	Seshasai Vamsikrishna Murthy Nidadavolu:2845851
+
+
+ABSTRACT:
+Food wastage management system is an android application which focuses on reducing food wastage and thereby creating a safe environment. Food wastage management system is a mobile application which allows users to raise a request to donate food to the needy.
+This application particularly focuses on reducing food wastage and building a sustainable environment. The most important requirement of this project is to build a user-friendly application with vivid connecting screens which can direct user from signing in to placing a request.
+
+USER MANUAL:
+A user manual or user guide is a technical communication document designed to educate users about a particular product. It can be printed or digitally created and written on almost any product, but is most common on computer software and hardware, electronics, and video games.
+
+Food wastage management application has 6 screens for a user application and 2 screens on an admin side application.
+
+
+
+
+
+
+
+
+
+
+
+
+USER PERSPECTIVE:
+SCREEN 1:
+ 
+
+•	This is the beginning page where the logo of the application is present
+•	We also have link at the bottom to login/ sign up
+•	A user can click on “join us” if he/she is not registered with the application.
+•	If a user is already registered with the application he/she can directly click on the link called “I already have an account ,login”
+
+SCREEN 2:
+
+ 
+
+•	If a user clicks on join us button, he/she will be directed to this page where a user can create a new account.
+•	User needs to enter his/her first name, last name, email, password, retype password in confirm password text box.
+•	Finally, user can click on sign up after filling the text fields.
+
+
+SCREEN 3:
+
+ 
+
+•	Users who are already registered with the application can directly login using their credentials.
+•	This screen appears after a user clicks on the link called “ I already have an account ,login”.
+•	Now, the user needs to enter his/her email id and password. 
+•	Click on login to navigate to your account.
+
+SCREEN 4:
+
+
+ 
+
+•	This screen will appear once the user completes the login.
+•	A user can now click on ADD button to raise a new food availability request
+
+
+
+
+
+SCREEN 5:
+
+ 
+
+•	Here the user can add the details of potential food wastage areas.
+•	User needs to enter his/her name, state, country, town.
+•	Finally, user can click on Add to add the request.
+
+
+
+
+
+SCREEN 6:
+
+ 
+
+•	This screen will show the requests and the status of the same.
+•	If a request is accepted by the admin the status will be accepted.
+•	If the request is not yet processed, the status will be pending.
+•	If the request is not accepted by the admin, the status will be rejected.
+•	User can click on add button to add another request
+
+
+ADMIN PERSPECTIVE:
+
+ 
+
+
+•	This is the beginning page where the logo of the application is present
+•	We also have link at the bottom to login/ sign up
+•	Admin can click on “join us” if he/she is not registered with the application.
+•	If the admin is already registered with the application he/she can directly click on the link called “I already have an account ,login”
+
+
+SCREEN 2:
+
+ 
+
+•	If ADMIN clicks on join us button he/she will be directed to this page where a user can create a new account.
+•	Admin needs to enter his/her first name, last name, email, password, retype password in confirm password text box.
+•	Finally, admin can click on sign up after filling the text fields.
+
+SCREEN 3:
+
+ 
+
+
+•	The admins who are already registered with the application can directly login using their credentials.
+•	This screen appears after a user clicks on the link called “ I already have an account ,login”.
+•	Now, the admin needs to enter his/her email id and password. 
+•	Click on login to navigate to your account.
+SCREEN 4:
+ 
+
+•	This is the next page.
+•	Admin can see all the requests raised by the users
+•	Admin can validate each of them and decide whether to accept or reject the request based on the criteria.
+•	If admin wants to accept the request, he/she can click on accept button.
+•	If admin wants to reject the request, he/she can click on cancel button.
+
+
