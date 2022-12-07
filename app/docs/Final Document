@@ -22,12 +22,15 @@ Food wastage management system is all about finding potential food wastage in an
 Food wastage management system is basically an android application which lets the needy find food.
 Name of the project: Food Wastage Management.
 Technologies: Java, XML
-Database: Microsoft SQL
+Database: Java database
 Description:
 The main goal of this application is to help in reducing wastage of food. This
 application has 2 logins. One is as admin and other is as a regular user. This
 application has registration page, login page and main page.
-Users can register and login with a unique username. An inbuilt username
+Users can register and login with a unique username.
+Users who arealready registered with the application can directly login with their credentials. 
+New users can sign up in registration page.
+An inbuilt username
 and password will be given to the admin. There will be only one admin for this
 application.
 There will be 2 homepages. One for the users – to request food, other is for
