@@ -1,4 +1,4 @@
-package com.assignments.foodwastagemanagement;
+package project.foodwastemanagement;
 
 import org.junit.Test;
 

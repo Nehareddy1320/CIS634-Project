@@ -1,4 +1,4 @@
-package com.assignments.foodwastagemanagement;
+package project.foodwastemanagement;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.assignments.foodwastagemanagement", appContext.getPackageName());
+        assertEquals("project.foodwastemanagement", appContext.getPackageName());
     }
 }
