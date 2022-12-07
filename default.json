@@ -1,0 +1,125 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5019562044950981272",
+      "lastPropertyId": "6:5182822087570933800",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:4177125310860979578",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2630945091353286473",
+          "name": "firstName",
+          "type": 9
+        },
+        {
+          "id": "3:6365915661859194303",
+          "name": "lastName",
+          "type": 9
+        },
+        {
+          "id": "4:3070474276003350278",
+          "name": "admin",
+          "type": 1
+        },
+        {
+          "id": "5:6727822832922298851",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "6:5182822087570933800",
+          "name": "password",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5719323871811761178",
+      "lastPropertyId": "6:3799500132411796755",
+      "name": "FoodWaste",
+      "properties": [
+        {
+          "id": "1:8063979575249093370",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1000483866430522046",
+          "name": "user_id",
+          "type": 6
+        },
+        {
+          "id": "3:1758378197939407797",
+          "name": "location_id",
+          "type": 6
+        },
+        {
+          "id": "4:2459142446496849905",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:8536114648927391583",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "6:3799500132411796755",
+          "name": "status_message",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:6584165081128427452",
+      "lastPropertyId": "4:8160725832354291801",
+      "name": "Location",
+      "properties": [
+        {
+          "id": "1:6401905490111685594",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8088069217486839710",
+          "name": "state",
+          "type": 9
+        },
+        {
+          "id": "3:4237836680512517131",
+          "name": "county",
+          "type": 9
+        },
+        {
+          "id": "4:8160725832354291801",
+          "name": "town",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:6584165081128427452",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
