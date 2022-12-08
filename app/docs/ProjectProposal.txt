@@ -1,7 +1,9 @@
 Project Proposal
 Name of the project: Food Wastage Management.
 Technologies: Java, XML
-Database: Microsoft SQL
+This project uses android studio application for development. 
+We used object box software and programmed in java db for database
+
 Description:
 	The main goal of this application is to help in reducing wastage of food.
 	This application has 2 logins. One is as admin and other is as a regular user.
