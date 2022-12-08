@@ -22,7 +22,8 @@ There is a lot of food wastage which happens on a regular basis via parties, eve
  1.2 Statement of scope
 This project delivers a working application based on android which provides a user-friendly UI satisfying all the requirements and goals.
  1.3 Software context
-This project uses android studio application for development. For database we use MSSQL.  For testing, we plan to use MSSQL, and android studio installed. The background coding is done using Java and JavaScript.
+This project uses android studio application for development. This project uses android studio application for development. 
+We used object box software and programmed in java db for database. For testing, we plan to use MSSQL, and android studio installed. The background coding is done using Java and JavaScript.
  1.4 Major constraints
 This application is only compatible with android devices. It doesn’t work on IOS systems.
  2.0 Usage scenario
@@ -52,25 +53,19 @@ Forgot password:
 •	A password reset link will be sent to the email upon request.
 
 User’s functions:
-o	When a student logs into the application, a screen pops up with two buttons called donate and view
-o	A user who wants to donate food can click on donate and this will take him/her to raise a donate request.
-o	This page is called food details page.
-o	This page has 2 fields:
-o	Name of the food item, quantity
-o	Another filed called add another item, when this field is clicked it opens one more entry of food item and quantity fields so that the user can add another item for donation
-o	After filling this page, user can click on raise request at the bottom of the page.
-o	Upon successful execution a screen pops up saying that the request was successfully sent to the NGO’s
-•	NGO’S functions:
-When a user raises a request of food donation, that request is sent to all the participating NGO’s so that any one can accept the request and contact the person to receive the food
+o	When a user registers and logins to the application, it shows a page as Report Potential food wastage.
+o	Once added the details, when clicked on add, it displays welcome user page.
+o	It displays the status as pending, cancelled or accepted.
+
+•	Admin functions:
+When a user raises a request, the admin logins with his inbuilt username and password and accepts or cancel the request.
 The acceptance of request is first come first serve.
-When an NGO accepts a user’s request of food donation, It shows a page stating that the acceptance of donation was successful and also it displays the contact details of the user 
-Once a user’s request has been accepted by an NGO, it is disabled.
+
  2.3 Special usage considerations
 N/A
  3.0 Data Model and Description
 Information domain of the software is:
- 3.1 Data Description
-For data storage Microsoft SQL is used
+ 
  3.1.1 Data objects
 Stored procedures and SQL tables are used for data objects.
  3.1.2 Relationships
